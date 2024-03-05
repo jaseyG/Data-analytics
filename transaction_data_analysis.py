@@ -17,12 +17,12 @@ def check_read(file_name):
         print('Data is empty, something probably went wrong.')
 
 # Initialising the spreadsheets
-td = le(file_path = r'C:/Users/Lololong/Desktop/Programming/Work Stuff/Quantium_Forage/QVI_transaction_data.xlsx')
+td = le(file_path = r#File Path 1)
 le.read_file(td)
 check_read(td)
 le.set_lowercase(td)
 
-pb = le(file_path = r'C:/Users/Lololong/Desktop/Programming/Work Stuff/Quantium_Forage/QVI_purchase_behaviour.csv')
+pb = le(file_path = r#File Path 2)
 le.read_file(pb)
 check_read(pb)
 le.set_lowercase(pb)
