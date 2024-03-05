@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 pd.options.mode.chained_assignment = None
 
 # Create Pandas dataframe with QVI Purchase Data 
-purchase_behaviour = pd.read_csv(r"C:/Users/Lololong/Desktop/Programming/Work Stuff/Quantium_Forage/QVI_purchase_behaviour.csv")
+purchase_behaviour = pd.read_csv(r#File Path)
 
 # Ensure you update this to set a consistent sample size for testing through the whole program
 sample_size = 100
